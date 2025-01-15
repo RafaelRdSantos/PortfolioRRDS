@@ -46,7 +46,6 @@ h1{
     padding-bottom: 140px;
     text-align: center;
     color: rgb(255, 255, 255);
-    margin-bottom: 5%;
 
 }
 
@@ -75,75 +74,6 @@ h1{
 #Sobremim h1{
     font-weight: bold;
 }
-
-.cat {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    background-color: #000; /* Gato preto */
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.face {
-    position: relative;
-    width: 80%;
-    height: 80%;
-}
-
-/* Orelhas do gato */
-.ear {
-    position: absolute;
-    width: 60px;
-    height: 80px;
-    background-color: #000; /* Mesma cor do gato */
-    clip-path: polygon(50% 0%, 0% 100%, 100% 100%); /* Forma triangular */
-}
-
-.left-ear {
-    top: -40px;
-    left: 20px;
-    transform: rotate(-20deg);
-}
-
-.right-ear {
-    top: -40px;
-    right: 20px;
-    transform: rotate(20deg);
-}
-
-/* Olhos */
-.eye {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
-    border-radius: 50%;
-    top: 50px;
-}
-
-#left-eye {
-    left: 40px;
-}
-
-#right-eye {
-    right: 40px;
-}
-
-/* Pupilas */
-.pupil {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: #000;
-    border-radius: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 
 #LogotipoFooter{
     width: 20%;
